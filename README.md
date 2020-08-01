@@ -11,7 +11,7 @@ Then using geth you want to create your node's data directory and create your pa
 
 Once you have that set you want to run ./puppeth and create your network and create your new genesis block. After you are done it should look like this:
 
-![](Desktop/Bunch_O_Blocks/Screenshots/Screenshot(7).png)
+![](Screenshots/Screenshot(7).png)
 
 Now its time to initialize each node with your network name with this code:
 * ./geth init yournetworkname.json --datadir node1/
