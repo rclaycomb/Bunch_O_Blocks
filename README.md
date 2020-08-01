@@ -11,7 +11,7 @@ Then using geth you want to create your node's data directory and create your pa
 
 Once you have that set you want to run ./puppeth and create your network and create your new genesis block. After you are done it should look like this:
 
-![](Screenshots/Screenshot(7).png)
+![](Screenshot(7).png)
 
 Now its time to initialize each node with your network name with this code:
 * ./geth init yournetworkname.json --datadir node1/
@@ -24,6 +24,7 @@ Then run this code in your other terminal for your second node:
 * ./geth --datadir node2/ --syncmode 'full' --networkid (any_numbers) --unlock "node2_sealer_address" --password node2/password.txt --mine --allow-insecure-unlock --port 30304 --bootnodes "enode_address_from_node1" --ipcdisable
 
 Your nodes should now be running and producing new blocks and should look something like this:
+
 
 ![](Desktop/Bunch_O_Blocks/Screenshots/Screenshot (10).png)
 
