@@ -11,7 +11,7 @@ Then using geth you want to create your node's data directory and create your pa
 
 Once you have that set you want to run ./puppeth and create your network and create your new genesis block. After you are done it should look like this:
 
-![](Screenshot (7).png)
+![](Screenshots/Screenshot(7).png)
 
 Now its time to initialize each node with your network name with this code:
 * ./geth init yournetworkname.json --datadir node1/
@@ -26,10 +26,10 @@ Then run this code in your other terminal for your second node:
 Your nodes should now be running and producing new blocks and should look something like this:
 
 
-![](Desktop/Bunch_O_Blocks/Screenshots/Screenshot (10).png)
+![](Screenshots/Screenshot(10).png)
 
 Now you want to connect to MyCrypto and add a custom node and set it up with the information you did in the beginning. Once inside you should see ALOT of ETH in your account. You want to now put in your second node address and send it some ETH. When you send your transaction you should see a confirmation page like this:
 
-![](Screenshot (11).png)
+![](Screenshots/Screenshot(11).png)
 
 Now you are a blockchain master! 
