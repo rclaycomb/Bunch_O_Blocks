@@ -1,0 +1,42 @@
+=============== Aug 1, 2020 (EDT) ===============
+08:57:32.266887 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:57:32.270875 db@open opening
+08:57:32.271872 version@stat F·[] S·0B[] Sc·[]
+08:57:32.272869 db@janitor F·2 G·0
+08:57:32.272869 db@open done T·1.9944ms
+08:57:32.277858 db@close closing
+08:57:32.283841 db@close done T·5.9837ms
+=============== Aug 1, 2020 (EDT) ===============
+09:10:51.617549 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:10:51.617549 version@stat F·[] S·0B[] Sc·[]
+09:10:51.617549 db@open opening
+09:10:51.617549 journal@recovery F·1
+09:10:51.623533 journal@recovery recovering @1
+09:10:51.628519 memdb@flush created L0@2 N·15 S·1KiB "\x15vZ..\xfdA\xcd,v4":"\xd6wm..l~\x96,v5"
+09:10:51.630514 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+09:10:51.635501 db@janitor F·3 G·0
+09:10:51.635501 db@open done T·17.9518ms
+=============== Aug 1, 2020 (EDT) ===============
+10:53:51.854405 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:53:51.855419 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+10:53:51.855419 db@open opening
+10:53:51.855419 journal@recovery F·1
+10:53:51.855419 journal@recovery recovering @3
+10:53:51.863382 memdb@flush created L0@5 N·1102 S·56KiB "Dat..ion,v17":"r\x00\x00..S\xc4M,v1114"
+10:53:51.863382 version@stat F·[2] S·57KiB[57KiB] Sc·[0.50]
+10:53:51.869367 db@janitor F·4 G·0
+10:53:51.869367 db@open done T·13.9478ms
+10:53:51.872357 db@close closing
+10:53:51.879339 db@close done T·6.9813ms
+=============== Aug 1, 2020 (EDT) ===============
+10:56:47.896250 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:56:47.897248 version@stat F·[2] S·57KiB[57KiB] Sc·[0.50]
+10:56:47.897248 db@open opening
+10:56:47.897248 journal@recovery F·1
+10:56:47.898245 journal@recovery recovering @6
+10:56:47.907221 memdb@flush created L0@8 N·1 S·390B "eth..h\xadu,v1120":"eth..h\xadu,v1120"
+10:56:47.909217 version@stat F·[3] S·57KiB[57KiB] Sc·[0.75]
+10:56:47.915199 db@janitor F·5 G·0
+10:56:47.915199 db@open done T·17.9515ms
+11:04:59.387048 db@close closing
+11:04:59.398056 db@close done T·11.008ms
